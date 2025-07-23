@@ -1,0 +1,11 @@
+@import "tailwindcss";
+:root {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* Custom Grid Columns */
+  --grid-cols-auto-fill: repeat(auto-fill, minmax(240px, 1fr));
+  --grid-cols-5: repeat(5, minmax(240px, 1fr));
+}
